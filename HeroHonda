@@ -1,0 +1,102 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyMN0std73iSl/kmYRNsta4m",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/dzire-111/Outfit-recommender/blob/main/HeroHonda\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 1,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "rsMhcZVfkpLh",
+        "outputId": "ef9a2297-877e-417e-9240-8c8003f817d9"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "6\n"
+          ]
+        }
+      ],
+      "source": [
+        "a = 2\n",
+        "b = 4\n",
+        "print(a+b)"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "print(\"enter a number\")\n",
+        "n = int(input())\n",
+        "\n",
+        "if n < 0:\n",
+        "  n = n * -1\n",
+        "\n",
+        "s = 0\n",
+        "while n > 0:\n",
+        "  d = n % 10\n",
+        "  s = s + d\n",
+        "  n = n // 10\n",
+        "  print(\"sum of digits:\", s)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "N-G1fZwwkwzI",
+        "outputId": "063593fd-aea7-469e-bed6-a84df6488ef6"
+      },
+      "execution_count": 2,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "enter a number\n",
+            "123\n",
+            "sum of digits: 3\n",
+            "sum of digits: 5\n",
+            "sum of digits: 6\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [],
+      "metadata": {
+        "id": "Cz7HGYfhlNJw"
+      },
+      "execution_count": null,
+      "outputs": []
+    }
+  ]
+}
